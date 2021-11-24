@@ -1,0 +1,29 @@
+/*ext {
+    // 模块单独运行开关
+    isModel = false;
+
+    minSdk = 23
+    targetSdk = 31
+    versionCode = 1
+    versionName = "1.0"
+    compileSdk = 30
+
+    applicationId "com.cbin.zujianhua"
+
+}*/
+
+
+ext {
+    android = [
+            // 模块单独运行开关
+            isModel      : true,
+            minSdk       : 23,
+            targetSdk    : 31,
+            versionCode  : 1,
+            versionName  : "1.0",
+            compileSdk   : 30,
+            applicationId: "com.cbin.zujianhua",
+    ]
+
+
+}
